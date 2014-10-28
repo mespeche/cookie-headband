@@ -6,7 +6,7 @@ This jQuery plugin allows you to display information about the obligations stipu
 
 First, create your information element :
 ```html
-<div id="cookie-headband" class="alert fade hide" role="alert">
+<div id="cookie-headband" class="alert fade in" role="alert">
     <div class="container">
         <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
         <p>
@@ -30,7 +30,10 @@ After included this file, start the plugin on the desired element :
         var $elem = $(this);
 
         $elem.cookieHeadband({
-            // Your options            
+            // Your options
+            openClass : 'in',
+            closeClass : 'hide',
+            closeBtn : $('.close', $elem)
         });
     });
 });
