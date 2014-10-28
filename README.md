@@ -39,7 +39,7 @@ After included this file, start the plugin on the desired element :
 ## Plugin options
 
 | Options        | Default values              | Role                                                           |
-|----------------| :--------------------------:| :-------------------------------------------------------------:|
+|----------------| --------------------------- | -------------------------------------------------------------- |
 | **openClass**  | "open"                      | string identifier of opened element                            |
 | **closeClass** | "close"                     | string identifier of closed element                            |
 | **closeBtn**   | $('#cookie-headband-close') | object identifier which allows the button to close the message |
